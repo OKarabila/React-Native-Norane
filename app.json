@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Norane",
+    "slug": "Norane",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./img/Noran23.png",
+    "splash": {
+      "image": "./img/Noran23.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package":"norane.fr",
+      "adaptiveIcon": {
+        "foregroundImage": "./img/Noran125.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
